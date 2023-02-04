@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register Form</title>
+<style type="text/css">
+	input[type="submit"]{
+		cursor:pointer;
+	}
+</style>
+</head>
+<body background="https://media.istockphoto.com/vectors/icon-key-with-keyring-logo-car-sharing-vector-id1070075886?k=20&m=1070075886&s=612x612&w=0&h=SKjMbPWLuDl6Pf19Ek9CqMdycUnS9XolZOQp4N5h3J0=">
+	<center>
+		<h3>Register Here</h3>
+		<form action="regAction.jsp" method="post">
+			<table>
+				<tr>
+					<td>User Id:</td>
+					<td><input type="text" name="user_id"></td>
+				</tr>
+				<tr>
+					<td>User Name:</td>
+					<td><input type="text" name="user_name"></td>
+				</tr>
+				<tr>
+					<td>Password:</td>
+					<td><input type="password" name="user_password"></td>
+				</tr>
+				<tr>
+					<td>City:</td>
+					<td><input type="text" name="user_city"></td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input type="text" name="user_email"></td>
+				</tr>
+				<tr>
+					<td>Phone Number:</td>
+					<td>
+						<select>
+							<option>+91</option>
+							<option>+1</option>
+							<option>+44</option>
+							<option>+86</option>
+						</select>
+						<input type="phone" name="mob_digits">
+					</td>
+				</tr>
+				<tr>
+					<td>Role Id:</td>
+					<td><input type="text" name="role_id"></td>
+				</tr>
+				<tr><td> </td><td><input type="submit" value="Register"></td></tr>
+				<tr><td> </td><td style="font-size:20px;">Already a User?<a href="indexuser.html">Login</a></td></tr>
+			</table>
+		</form>
+	</center>
+
+</body>
+</html>
